@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Cormorant+SC:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- header -->
+      <nav>
+        <!-- logo -->
+        <img class="logo" src="./images/logo-search-grid-1x.png" alt="logo" />
+        <!-- links -->
+        <ul>
+          <li class="list-items">
+            <a class="links" href="#container">HOME</a>
+          </li>
+          <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+          <li class="list-items"><a class="links" href="#skill">SKILLS</a></li>
+          <li class="list-items">
+            <a class="links" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- home -->
+      <section id="home">
+        <div class="home-content">
+          <h1 id="username" class="animate__animated animate__heartBeat">
+            I'm Angel <span id="lname">Maria</span>
+          </h1>
+          <p id="user-details">
+            This is my official portfolio website to describe all <br />
+            Details and work experience in Web Development
+          </p>
+          <a id="download" href="./images/AlwinRESUME_1.pdf" download
+            >DOWNLOAD CV</a
+          >
+        </div>
+        <div class="home-img">
+          <!-- shape -->
+          <img
+            id="shape"
+            src="./images/bg_brown-removebg-preview.png"
+            alt="bg shape"
+            class="group1"
+          />
+          <!-- girl -->
+          <img
+            id="girl"
+            src="./images/businessLady-removebg-preview.png"
+            alt="girl"
+            class="group1"
+          />
+        </div>
+      </section>
+      <!-- about me -->
+      <section id="about">
+        <div id="sectionHead">
+          <h2 class="mainHead">About me</h2>
+          <span class="subHead">Introduction</span>
+        </div>
+        <div class="aboutBody">
+          <div data-aos="fade-right" class="aboutImage">
+            <img class="img1" src="./images/trustme.png" alt="about" />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              iure ullam quos nihil nostrum fugit, ipsam aliquid ducimus
+              doloremque corrupti consectetur sequi dignissimos sit unde sunt
+              odio id quia fuga?
+            </p>
+            <div class="information">
+              <div class="infoBox">
+                <i class="fa-solid fa-user"></i>
+                <span>Angel Maria</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-phone"></i>
+                <span>9547510253</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>angelm@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skill">
+        <div id="sectionHead">
+          <h2 class="mainHead">Skills</h2>
+          <span class="subHead">My Skills</span>
+        </div>
+        <div class="skillContent">
+          <div class="progressBar">
+            <!-- progress bar -->
+            <div class="bars">
+              <h3 class="barHead">HTML</h3>
+              <span class="barPercentage">89%</span>
+              <div class="baseBar"></div>
+              <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                class="baseBar htmlBar"
+              ></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">CSS</h3>
+              <span class="barPercentage">79%</span>
+              <div class="baseBar"></div>
+              <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                class="baseBar cssBar"
+              ></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">JS</h3>
+              <span class="barPercentage">85%</span>
+              <div class="baseBar"></div>
+              <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                class="baseBar jsBar"
+              ></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">React</h3>
+              <span class="barPercentage">95%</span>
+              <div class="baseBar"></div>
+              <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                class="baseBar reactBar"
+              ></div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="skillImage">
+            <img
+              class="mySkill"
+              src="./images/skills_whatsapp.jpg"
+              alt="skills"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact">
+        <div id="sectionHead">
+          <h2 class="mainHead">Social</h2>
+          <span class="subHead">My Socials</span>
+        </div>
+        <!-- icons -->
+        <div class="iconCollection">
+          <!-- linkedin -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/alwin1832/" target="_blank"
+              ><i class="fa-brands fa-linkedin-in brands"></i
+            ></a>
+          </div>
+          <!-- github -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/alwin1832/" target="_blank"
+              ><i class="fa-brands fa-github brands"></i
+            ></a>
+          </div>
+          <!-- twitter -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/alwin1832/" target="_blank"
+              ><i class="fa-brands fa-x-twitter brands"></i
+            ></a>
+          </div>
+          <!-- instagram -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/alwin1832/" target="_blank"
+              ><i class="fa-brands fa-instagram brands"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <p id="copyright">
+          &copy; My Portfolio website-May 2025, All Rights Reserved to &reg;
+          Angel Maria
+        </p>
+        <div class="icon upArrow">
+          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <!-- AOS animation script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- initialize AOS -->
+  <script>
+    AOS.init();
+  </script>
+</html>
